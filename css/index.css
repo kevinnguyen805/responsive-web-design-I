@@ -190,8 +190,8 @@ tablet view - 800px */
 /* TABLET VIEW - 800px */
 @media screen and (max-width:800px){
      body{
-          width:800px;
-          padding:0px 25px;
+          width:100%;
+          padding:0px 3.125%;
      }
      /* NAVIGATION  */
      .navigation{
@@ -228,7 +228,7 @@ tablet view - 800px */
 /* MOBILE VIEW - 500px */
 @media screen and (max-width:500px){
      body{
-          width:500px;
+          width:100%;
           display:flex;
           flex-direction:column;
      }
@@ -246,7 +246,7 @@ tablet view - 800px */
           font-size:1.4rem;
           display:flex;
           width:100%;
-          padding:20px 0;
+          padding:4% 0;
           justify-content:center;
      }
      #border{
